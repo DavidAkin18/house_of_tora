@@ -17,11 +17,11 @@
   
       <!-- Desktop Navigation Links -->
       <div id="menu" class="hidden md:flex md:items-center space-x-6">
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Home</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Products</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Gallery</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">About</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Contact</router-link>
+        <router-link to="/" class="text-[#000000] hover:text-[#B87F61]">Home</router-link>
+        <router-link to="/products" class="text-[#000000] hover:text-[#B87F61]">Products</router-link>
+        <router-link to="/gallery" class="text-[#000000] hover:text-[#B87F61]">Gallery</router-link>
+        <router-link to="/about" class="text-[#000000] hover:text-[#B87F61]">About</router-link>
+        <router-link to="/contact" class="text-[#000000] hover:text-[#B87F61]">Contact</router-link>
       </div>
   
       <!-- Mobile Sidebar -->
@@ -41,11 +41,11 @@
   
         <!-- Sidebar Links -->
         <div class="flex flex-col space-y-4 p-4 text-lg">
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Home</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Products</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Gallery</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">About</router-link>
-            <router-link class="text-[#000000] hover:text-[#B87F61]">Contact</router-link>
+          <router-link to="/" class="text-[#000000] hover:text-[#B87F61]">Home</router-link>
+          <router-link to="/products" class="text-[#000000] hover:text-[#B87F61]">Products</router-link>
+          <router-link to="/gallery" class="text-[#000000] hover:text-[#B87F61]">Gallery</router-link>
+          <router-link to="/about" class="text-[#000000] hover:text-[#B87F61]">About</router-link>
+          <router-link to="/contact" class="text-[#000000] hover:text-[#B87F61]">Contact</router-link>
         </div>
   
         <!-- Call to Action -->
