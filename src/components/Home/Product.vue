@@ -11,31 +11,31 @@
                 <img 
                 src="https://image.made-in-china.com/202f0j00ZavozMQHvcrt/D50mm-120ml-150ml-180ml-200ml-220ml-240ml-250ml-Body-Lotion-Cream-Plastic-Tube-Cosmetic-Packaging-Tube.webp" 
                 alt="Beauty Soaps" class="rounded-lg shadow-md">
-                <p class="mt-2 text-gray-700 font-medium text-center">Lotion & Tube Creams</p>
+                <button class="mt-2 text-white font-medium rounded-md p-1 text-center border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Lotion & Tube Creams</button>
             </router-link>
         </div>
         <div class="">
            <router-link to="/scrub">
             <img src="https://www.cultbeauty.com/images?url=https://static.thcdn.com/productimg/original/13522440-2744937422208733.jpg&format=webp&auto=avif&width=1200&height=1200&fit=cover" alt="Body Lotion" class="rounded-lg shadow-md">
-            <p class="mt-2 text-gray-700 font-medium text-center">Scrub & Supplements</p>
+            <button class="mt-2 text-white font-medium text-center rounded-md p-1 border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Scrub & Supplements</button>
            </router-link>
         </div>
         <div class="">
             <router-link to="/shower">
                 <img src="https://driftbasket.com/wp-content/uploads/2022/06/71fP1ocQg0L._SL1500_-e1654535869753.jpg" alt="Hair Oil" class="rounded-lg shadow-md">
-                <p class="mt-2 text-gray-700 font-medium text-center">Shower Baths & Tablet soaps</p>
+                <button class="mt-2 text-white font-medium text-center rounded-md p-1 border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Shower Baths & Tablet soaps</button>
             </router-link>
         </div>
         <div class="">
             <router-link to="/faceWash">
                 <img src="https://www.simpleskincare.in/cdn/shop/files/Kind-to-Skin-Replenishing-Combo.jpg?v=1721644261&width=1500" alt="Facewash" class="rounded-lg shadow-md">
-                <p class="mt-2 text-gray-700 font-medium text-center">Face wash, Toner & Cleanser</p>
+                <button class="mt-2 text-white font-medium text-center border rounded-md p-1 bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Face wash, Toner & Cleanser</button>
             </router-link>
         </div>
         <div class="">
             <router-link to="/bodyOil">
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFDnV8uBdvflBwd5glxnSCX_eOVTB8pF54w&s" alt="Facewash" class="rounded-lg shadow-md">
-                <p class="mt-2 text-gray-700 font-medium text-center">Body oil, Face serum & Face creams</p>
+                <button class="mt-2 text-[#ffffff] border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]  rounded-md p-1 font-medium text-center">Body oil, Face serum & Face creams</button>
             </router-link>
         </div>
     </div>
