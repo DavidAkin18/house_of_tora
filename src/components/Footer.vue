@@ -5,7 +5,7 @@
         <!-- About Section -->
         <div class="text-white space-y-4 md:w-1/3">
           <img 
-            src="https://res.cloudinary.com/def9quyti/image/upload/v1731971283/torologo_hvtoiz.png" 
+            src="https://res.cloudinary.com/def9quyti/image/upload/v1732029320/torologo_bg_color_FFEFD8_ajdheo.png" 
             alt="House of Toro Logo" 
             class="h-16"
           >
@@ -22,47 +22,47 @@
           <ul class="space-y-2">
             <li><a href="#" class="hover:underline">Home</a></li>
             <li><a href="#" class="hover:underline">Products</a></li>
-            <li><a href="#" class="hover:underline">Gallery</a></li>
             <li><a href="#" class="hover:underline">About</a></li>
-            <li><a href="#" class="hover:underline">Contact</a></li>
+            <li><a href="https://wa.me/2349092627921" target="_blank" class="hover:underline">Contact</a></li>  
           </ul>
         </div>
   
         <!-- Contact Section -->
         <div class="text-white md:w-1/3 space-y-4">
           <h2 class="text-2xl font-bold">Contact</h2>
-          
+
           <p class="space-x-2">
-            <i class="ri-map-pin-fill bg-white p-1 rounded-md text-[#B87F61]"></i> 
-            <span>1565 Rowland Street, Bronx, New York, 10461, USA</span>
+            <i class="ri-map-pin-fill bg-white p-1 rounded-md text-[#B87F61]"></i>
+            <span>9 CAC road, total benson Ikorodu, Lagos, Nigeria</span>
           </p>
-          
-          <p  class="space-x-2">
-            <i class="ri-cellphone-line bg-white p-1 rounded-md text-[#B87F61]"></i> 
-            <span>+234 909 262 7921</span>
+
+          <p class="space-x-2">
+            <i class="ri-cellphone-line bg-white p-1 rounded-md text-[#B87F61]"></i>
+            <a href="tel:+2349092627921" class="hover:underline">+234 909 262 7921</a>
           </p>
-          
-          <p  class="space-x-2">
-            <i class="ri-mail-line bg-white p-1 rounded-md text-[#B87F61]"></i> 
-            <span>toro@gmail.com</span>
+
+          <p class="space-x-2">
+            <i class="ri-mail-line bg-white p-1 rounded-md text-[#B87F61]"></i>
+            <a href="mailto:houseoftoroadetoro@gmail.com" class="hover:underline">houseoftoroadetoro@gmail.com</a>
           </p>
-          
+
           <div class="space-y-2">
-            <p  class="space-x-2">
-                <i class="ri-tiktok-line bg-white p-1 rounded-md text-[#B87F61]"></i> 
-                torologo_hvtoiz
+            <p class="space-x-2">
+              <i class="ri-tiktok-line bg-white p-1 rounded-md text-[#B87F61]"></i>
+              <a href="https://www.tiktok.com/@toromade7?_t=8rYDJAEX3Dj&_r=1" target="_blank" class="hover:underline">
+                toromade7
+              </a>
             </p>
-            <p  class="space-x-2">
-                <i class="ri-instagram-line bg-white p-1 rounded-md text-[#B87F61]"></i> 
-                toro cosmetics
+            <p class="space-x-2">
+              <i class="ri-instagram-line bg-white p-1 rounded-md text-[#B87F61]"></i>
+              <a href="https://www.instagram.com/houseoftoro4?igsh=YzljYTk1ODg3Zg==" target="_blank" class="hover:underline">
+                houseoftoro4
+              </a>
             </p>
-            <p  class="space-x-2">
-                <i class="ri-facebook-fill bg-white p-1 rounded-md text-[#B87F61]"></i> 
-                toro cosmetics
-            </p>
-            <p  class="space-x-2">
-                <i class="ri-whatsapp-line bg-white p-1 rounded-md text-[#B87F61]"></i> 
-                me
+           
+            <p class="space-x-2">
+              <i class="ri-whatsapp-line bg-white p-1 rounded-md text-[#B87F61]"></i>
+              <a href="https://wa.me/9092627921" target="_blank" class="hover:underline">Chat on WhatsApp</a>
             </p>
           </div>
         </div>

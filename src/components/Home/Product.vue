@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-[#E5E5E5] px-4  py-8 md:px-16" >
+  <section class="bg-[#E5E5E5] px-4  py-8 md:px-16" id="products">
     <div class="flex justify-between items-center mb-6">
         <h2 class="text-xl font-bold text-gray-800">Products</h2>
     </div>

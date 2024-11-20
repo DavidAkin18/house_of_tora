@@ -13,7 +13,7 @@
                 <a href="#" class="bg-[#B87F61] text-white px-6 py-2 rounded hover:bg-orange-600">
                 contact us
                 </a>
-                <a href="#" class="text-[#B87F61] border border-[#B87F61] px-6 py-2 rounded ">
+                <a @click.prevent="scrollTo('products')" class="text-[#B87F61] border border-[#B87F61] px-6 py-2 rounded ">
                 Products
                 </a>
             </div>
@@ -30,7 +30,11 @@
 
 <script>
 export default {
-
+methods:{
+    scrollTo(target) {
+      this.$scrollTo(`#${target}`, 500); // 500ms duration
+    },
+}
 }
 </script>
 

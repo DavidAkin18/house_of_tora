@@ -4,7 +4,7 @@
 </template>
 
 <style>
-html {
-  scroll-behavior: smooth;
-}
+  html {
+    scroll-behavior: smooth;
+  }
 </style>

@@ -1,65 +1,73 @@
 <template>
-    <div class="flex flex-col justify-center items-start px-4 py-10 pt-20 md:pt-28 md:px-16">
-      <!-- Section Title -->
-      <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Body Oil Products & Price</h2>
-      
-      <!-- Product Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-        <div 
-          v-for="(product, index) in products" 
-          :key="index"
-          class="flex flex-col items-center bg-white px-4 py-6 w-full max-w-sm rounded-lg shadow-lg"
-        >
-          <!-- Product Image -->
-          <img 
-            :src="product.image" 
-            :alt="product.name" 
-            class="w-full h-48 object-cover rounded-t-lg mb-4"
-          />
-  
-          <!-- Product Name and Price -->
-          <div class="text-center">
-            <h3 class="text-lg font-semibold text-[#B87F61] mb-2">{{ product.name }}</h3>
-            <p class="text-md font-medium text-gray-800">₦ {{ product.price }}</p>
-          </div>
+  <div class="flex flex-col justify-center items-start px-4 py-10 pt-20 md:pt-28 md:px-16">
+    <!-- Section Title -->
+    <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Body Oil Products & Prices</h2>
+
+    <!-- Product Grid -->
+    <div class="grid grid-cols-1 w-full sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div
+        v-for="(product, index) in products"
+        :key="index"
+        class="flex flex-col items-center bg-white px-4 py-6 w-full max-w-sm rounded-lg shadow-lg"
+      >
+        <!-- Product Image -->
+        <img 
+          :src="product.image" 
+          :alt="product.name" 
+          class="w-full h-48 object-cover rounded-t-lg mb-4"
+        />
+
+        <!-- Product Name and Price -->
+        <div class="text-center">
+          <h3 class="text-lg font-semibold text-[#B87F61] mb-2">{{ product.name }}</h3>
+          <!-- WhatsApp Link -->
+          <a 
+            :href="product.whatsappLink" 
+            target="_blank" 
+            class="text-md font-medium text-gray-800 cursor-pointer hover:underline"
+          >
+            ₦ {{ product.price }}
+          </a>
         </div>
       </div>
     </div>
-  </template>
-  
-  <script>
-  export default {
-    data() {
-      return {
-        // Array of 20 demo products
-        products: [
-          { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion' },
-          { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo' },
-          { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream' },
-          { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen' },
-          { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap' },
-          { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil' },
-          { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel' },
-          { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant' },
-          { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm' },
-          { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash' },
-          { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator' },
-          { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish' },
-          { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar' },
-          { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream' },
-          { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream' },
-          { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave' },
-          { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub' },
-          { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask' },
-          { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask' },
-          { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set' }
-        ],
-      };
-    },
-  };
-  </script>
-  
-  <style scoped>
-  /* Optional custom styles */
-  </style>
-  
+  </div>
+</template>
+
+
+<script>
+export default {
+  data() {
+    return {
+      // Array of 20 demo products
+      products: [
+        { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+      },
+        { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream'  ,whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
+        { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.' }
+      ],
+    };
+  },
+};
+</script>
+
+<style scoped>
+/* Optional custom styles */
+</style>
