@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-start px-4 py-10 pt-20 md:pt-28 md:px-16">
+  <div class="flex flex-col justify-center items-start px-4 py-10  md:px-16">
     <!-- Section Title -->
     <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Lotion Products & Prices</h2>
 

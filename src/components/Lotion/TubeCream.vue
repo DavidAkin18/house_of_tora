@@ -1,12 +1,28 @@
 <template>
-  <div class="flex flex-col justify-center items-start px-4 py-10 pt-20 md:pt-28 md:px-16">
+  <div class="flex flex-col justify-center items-start px-4 py-10  md:pt-28 md:px-16">
     <!-- Section Title -->
     <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Tube Cream Products & Prices</h2>
+
+    <div class="mb-8 relative w-full max-w-md">
+      <input 
+        v-model="searchQuery" 
+        type="text" 
+        placeholder="Search for a product..." 
+        class="w-full p-3 pl-8 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+      />
+      <!-- Search Button with Icon -->
+      <button 
+        @click="triggerSearch"
+        class="absolute left-1 top-1/3 transform -translate-y-1/2 text-[#B87F61] cursor-pointer hover:text-[#B87F61]  focus:outline-none focus:ring-2 focus:ring-[#B87F61]">
+        <i class="ri-search-line font-bold text-2xl"></i>
+      </button>
+    </div>
+
 
     <!-- Product Grid -->
     <div class="grid grid-cols-1 w-full sm:grid-cols-2 lg:grid-cols-4 gap-8">
       <div
-        v-for="(product, index) in products"
+        v-for="(product, index) in filterProducts"
         :key="index"
         class="flex flex-col items-center bg-white px-4 py-6 w-full max-w-sm rounded-lg shadow-lg"
       >
@@ -39,32 +55,150 @@
 export default {
   data() {
     return {
-      // Array of 20 demo products
+      searchQuery:'',
       products: [
-        { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-      },
-        { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream'  ,whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.' }
-      ],
+        { 
+          name: 'AMOSCLEAR SPOT GEL CREAM', 
+          price: '2,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142523/amosclear-spot-gel-cream_knqrve.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the AMOSCLEAR SPOT GEL CREAM product.' 
+        },
+        { 
+          name: 'ANIVAT DARK CORRECTOR CREAM', 
+          price: '1,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142543/anivat-dark-corrector-cream_lcxt8u.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the ANIVAT DARK CORRECTOR CREAM product.' 
+        },
+        { 
+          name: 'APPLEVET LIGHTENING CREAM', 
+          price: '3,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142549/applevet-lightening-cream_vvpeb9.jpg', 
+          whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the APPLEVET LIGHTENING CREAM product.' 
+        },
+        { 
+          name: 'CLIN-CAP GEL ACNE & PIMPLES', 
+          price: '2,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142568/CLIN-CAP-Gel-Acne-_-Pimples_bgqf3x.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the CLIN-CAP GEL ACNE & PIMPLES product.' 
+        },
+        { 
+          name: 'COLLAGEN SNAIL EYE CREAM', 
+          price: '1,200', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142578/collagen-snail-eye-cream_yebwk3.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the COLLAGEN SNAIL EYE CREAM product.' 
+        },
+        { 
+          name: 'COLLAGEN SNAIL EYE CREAM', 
+          price: '4,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142578/collagen-snail-eye-cream_yebwk3.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the COLLAGEN SNAIL EYE CREAM product.' 
+        },
+        { 
+          name: 'EPIDERM CREAM', 
+          price: '1,800', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142584/Epiderm-cream_fq7x3d.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the EPIDERM CREAM product.' 
+        },
+        { 
+          name: 'FEAH WHITENING BEAUTY', 
+          price: '1,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142589/feah-whitening-beauty_pvsyz2.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the FEAH WHITENING BEAUTY product.' 
+        },
+        { 
+          name: 'GLOBATIN CREAM', 
+          price: '600', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142596/Globatin-Cream-30G_u2hria.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the GLOBATIN CREAM product.' 
+        },
+        { 
+          name: 'KETINEAL CREAM', 
+          price: '2,200', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142604/ketineal-cream_rzdxbp.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the KETINEAL CREAM product.' 
+        },
+        { 
+          name: 'KOJIC CLEAR FAST ACTION CREAM', 
+          price: '2,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142613/Kojic-Clear-Fast-Action-Cream-50g_900x_e7462790-6692-4a00-899f-e57cecfb61d7_c7rbcz.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the KOJIC CLEAR FAST ACTION CREAM product.' 
+        },
+        { 
+          name: 'KOJIC CLEAR CREAM', 
+          price: '700', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142624/kojic-clear_klalm8.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the KOJIC CLEAR CREAM product.' 
+        },
+        { 
+          name: 'SHAMPOO BAR', 
+          price: '1,000', 
+          image: 'https://via.placeholder.com/200?text=Shampoo+Bar', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the SHAMPOO BAR product.' 
+        },
+        { 
+          name: 'KPATA-KPATA CREAM', 
+          price: '1,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142641/kpata-kpata-cream_wbx2yp.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the KPATA-KPATA CREAM product.' 
+        },
+        { 
+          name: 'MENOTONE CREAM', 
+          price: '1,700', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142646/menotone_cream_urkbpd.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the MENOTONE CREAM product.' 
+        },
+        { 
+          name: 'MIRACLE DERM CREAM', 
+          price: '2,800', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142656/miracle-derm_cream_md8tuq.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the MIRACLE DERM CREAM product.' 
+        },
+        { 
+          name: 'NEOPROSONE-GEL FORTE', 
+          price: '2,600', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142667/neoprosone-gel_forte_omrsat.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the NEOPROSONE-GEL FORTE product.' 
+        },
+        { 
+          name: 'OLAYBACT CREAM', 
+          price: '2,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142676/olaybact_cream_c59h4a.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the OLAYBACT CREAM product.' 
+        },
+        { 
+          name: 'SKIGUD CREAM', 
+          price: '3,200', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142686/skigud_cream_kh9g9h.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the SKIGUD CREAM product.' 
+        },
+        { 
+          name: 'TYDINEAL CREAM', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142705/tydineal-cream_wqzdxh.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the TYDINEAL CREAM product.' 
+        },
+        { 
+          name: 'VISTA PLUS CREAM', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142712/vista-plus_ey5xdo.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VISTA PLUS CREAM product.' 
+        },
+        { 
+          name: 'YTACAN CLOTRIMAZOLE CREAM', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142719/Ytacan-clotrimazole-cream_ippidl.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the YTACAN CLOTRIMAZOLE CREAM product.' 
+        },
+      ]
     };
   },
+  computed:{
+    filterProducts(){
+      return this.products.filter(product =>{
+        return product.name.toLocaleLowerCase().includes(this.searchQuery.toLocaleLowerCase())
+      })
+    }
+  }
 };
 </script>
 
