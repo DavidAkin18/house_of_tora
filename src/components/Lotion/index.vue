@@ -10,7 +10,7 @@
           'border border-[#B87F61] text-[#B87F61]': activeComponent !== 'lotion'
         }" 
         class="w-1/2 py-2 px-4 font-semibold rounded-lg hover:bg-[#B87F61] hover:text-white focus:outline-none">
-        Lotion Details
+        Lotion 
       </button>
       
       <!-- Button to show TubeCream, active button gets bg and text color change -->

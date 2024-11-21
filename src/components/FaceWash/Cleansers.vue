@@ -1,12 +1,28 @@
 <template>
-  <div class="flex flex-col justify-center items-start px-4 py-10 pt-20 md:pt-28 md:px-16">
+  <div class="flex flex-col justify-center items-start px-4 py-10  md:px-16">
     <!-- Section Title -->
     <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Cleanser Products & Prices</h2>
+
+    <div class="mb-8 relative w-full max-w-md">
+      <input 
+        v-model="searchQuery" 
+        type="text" 
+        placeholder="Search for a product..." 
+        class="w-full p-3 pl-8 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+      />
+      <!-- Search Button with Icon -->
+      <button 
+        @click="triggerSearch"
+        class="absolute left-1 top-1/3 transform -translate-y-1/2 text-[#B87F61] cursor-pointer hover:text-[#B87F61]  focus:outline-none focus:ring-2 focus:ring-[#B87F61]">
+        <i class="ri-search-line font-bold text-2xl"></i>
+      </button>
+    </div>
+
 
     <!-- Product Grid -->
     <div class="grid grid-cols-1 w-full sm:grid-cols-2 lg:grid-cols-4 gap-8">
       <div
-        v-for="(product, index) in products"
+        v-for="(product, index) in filterProducts"
         :key="index"
         class="flex flex-col items-center bg-white px-4 py-6 w-full max-w-sm rounded-lg shadow-lg"
       >
@@ -39,6 +55,7 @@
 export default {
   data() {
     return {
+      searchQuery:'',
       // Array of 20 demo products
       products: [
         { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
@@ -65,6 +82,13 @@ export default {
       ],
     };
   },
+  computed:{
+    filterProducts(){
+      return this.products.filter(product =>{
+        return product.name.toLocaleLowerCase().includes(this.searchQuery.toLocaleLowerCase())
+      } )
+    }
+  }
 };
 </script>
 
