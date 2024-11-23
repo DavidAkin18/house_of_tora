@@ -9,20 +9,20 @@
         <div class="">
             <router-link to="/lotion">
                 <img 
-                src="https://image.made-in-china.com/202f0j00ZavozMQHvcrt/D50mm-120ml-150ml-180ml-200ml-220ml-240ml-250ml-Body-Lotion-Cream-Plastic-Tube-Cosmetic-Packaging-Tube.webp" 
+                src="https://res.cloudinary.com/def9quyti/image/upload/v1732348159/lotion_kw6glc.jpg" 
                 alt="Beauty Soaps" class="rounded-lg shadow-md">
                 <button class="mt-2 text-white font-medium rounded-md p-1 text-center border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Lotion & Tube Creams</button>
             </router-link>
         </div>
         <div class="">
            <router-link to="/scrub">
-            <img src="https://www.cultbeauty.com/images?url=https://static.thcdn.com/productimg/original/13522440-2744937422208733.jpg&format=webp&auto=avif&width=1200&height=1200&fit=cover" alt="Body Lotion" class="rounded-lg shadow-md">
+            <img src="https://res.cloudinary.com/def9quyti/image/upload/v1732348193/scrub_abrcml.jpg" alt="Body Lotion" class="rounded-lg shadow-md">
             <button class="mt-2 text-white font-medium text-center rounded-md p-1 border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Scrub & Supplements</button>
            </router-link>
         </div>
         <div class="">
             <router-link to="/shower">
-                <img src="https://driftbasket.com/wp-content/uploads/2022/06/71fP1ocQg0L._SL1500_-e1654535869753.jpg" alt="Hair Oil" class="rounded-lg shadow-md">
+                <img src="https://res.cloudinary.com/def9quyti/image/upload/v1732348610/shower_bath_and_tablet_soap_c8o0qg.jpg" alt="Hair Oil" class="rounded-lg shadow-md">
                 <button class="mt-2 text-white font-medium text-center rounded-md p-1 border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]">Shower Baths & Tablet soaps</button>
             </router-link>
         </div>
@@ -34,7 +34,7 @@
         </div>
         <div class="">
             <router-link to="/bodyOil">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvFDnV8uBdvflBwd5glxnSCX_eOVTB8pF54w&s" alt="Facewash" class="rounded-lg shadow-md">
+                <img src="https://res.cloudinary.com/def9quyti/image/upload/v1732348170/body_oil_hmukyo.webp" alt="Facewash" class="rounded-lg shadow-md">
                 <button class="mt-2 text-[#ffffff] border bg-[#B87F61] hover:bg-[#E5E5E5] hover:border-[#B87F61] hover:text-[#B87F61]  rounded-md p-1 font-medium text-center">Body oil, Face serum & Face creams</button>
             </router-link>
         </div>

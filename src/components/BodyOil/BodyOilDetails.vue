@@ -58,27 +58,102 @@ export default {
       // Array of 20 demo products
       searchQuery:'',
       products: [
-        { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-      },
-        { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream'  ,whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.' }
+        {
+            name: 'Veet Gold Turmeric Oil 1000ml',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338979/VeetGoldTurmericOil1000ml_w0mhkc.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'VEETGOLD SKIN REPAIR 3 IN 1 BODY TREATMENT OIL 150ML',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338971/VEETGOLD_SKIN_REPAIR_3_IN_1_BODY_TREATMENT_OIL_150ML_kngzjf.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Vaseline Vitamin B3 Body Oil 200ml',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338960/Vaseline_Vitamin_B3_Body_Oil_200ml_br1c5c.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: "Tara vet Brightening glow oil",
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338932/Tara_vet_Brightening_glow_oil_ob0pol.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Sof 7 Super Whitening And Glowing Oil With Turmeric And Honey',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338911/Soft_7_Super_Whitening_And_Glowing_Oil_With_Turmeric_And_Honey_ftzvv9.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Skin Therapy Oil',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338897/SkinTherapyOil_tpjzv8.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Neutrogena Body Oil Light Sesame Formula For Dry Skin',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338871/Neutrogena_Body_Oil_Light_Sesame_Formula_For_Dry_Skin_uwaoyt.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Morrocan Argan Essential Oils 24k Gold Primer Skin Oil',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338865/Morrocan_Argan_Essential_Oils_6_In_1_24k_Gold_Primer_Skin_Oil_Spf_45_300ml_ymdqdz.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'HalfCast Privilege Age defying',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337071/HalfCast_Privilege_Age-defying_Bar_Soap_po0h5j.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Moroccan Argan Essential',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338857/MoroccanArganEssential_klwhpq.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'GLUTA-C INTENSE WHITENING GLUTATHIONE PAPAYA SOAP',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337056/GLUTA_C_INTENSE_WHITENING_GLUTATHIONE_PAPAYA_SOAP_rvej4f.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Moroccan Argan Oil-Vitamin C Glowing Oil',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338844/Moroccan_Argan_Oil_-_Vitamin_C_Glowing_Oil_pxwk8a.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Disaar Natural Vitamin C Whitening And Moisturizing Oil',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338836/DisaarNaturalVitaminCWhiteningAndMoisturizingOil_gzy0g1.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Beauty IQ Beauty Carrot Oil 200ml',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338829/Beauty_IQ_Beauty_Carrot_Oil_200ml_uytpdf.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Aveeno Daily Moisturizing Oil Mist',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338820/Aveeno_Daily_Moisturizing_Oil_Mist_m2umce.jpg',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
+          {
+            name: 'Veet Gold Extra Whitening Corrector Glowing Dark Spot Treatment Oil for Face Body',
+            price: '2,500',
+            image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732338814/Veet_Gold_Extra_Whitening_Corrector_Glowing_Dark_Spot_Treatment_Oil_for_Face_Body_y7smtw.webp',
+            whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+          },
       ],
     };
   },

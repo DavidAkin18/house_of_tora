@@ -58,28 +58,31 @@ export default {
       searchQuery:'',
       // Array of 20 demo products
       products: [
-        { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-      },
-        { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream'  ,whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.' }
-      ],
+        {
+          name: 'Santarde whitening cleanser',
+          price: '2,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732282883/Santarde_whitening_cleanser_vetkic.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'lotion Eclaircissante Plantes Naturelles',
+          price: '35,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732282866/lotionEclaircissantePlantesNaturelles_kg4g7m.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'lotion peau de lune',
+          price: '3,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732282859/lotion-peau-de-lune-cleanser-review_2x_oxhvtz.webp',
+          whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'lotion eclaircissante plantes naturelles carrot oil',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732282853/lotion_eclaircissante_plantes_naturelles_carrot_oil_mvhsjf.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+      ]
     };
   },
   computed:{

@@ -64,7 +64,7 @@ export default {
         },
         {
           name: 'white Filter Skin Beauty',
-          price: '1,500',
+          price: '35,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152145/whiteFilterSkinBeauty_wsrn4m.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
         },
@@ -100,7 +100,7 @@ export default {
         },
         {
           name: 'vit-c-1000',
-          price: '1,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152068/vit-c-1000_imx20s.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
         },
@@ -160,7 +160,7 @@ export default {
         },
         {
           name: 'Phyto Collagen King Of Whitening',
-          price: '2,000',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151952/Phyto-Collagen-King-Of-Whitening-Supplement-1000ml_lwxc1m.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
         },
@@ -274,7 +274,7 @@ export default {
         },
         {
           name: ' Acorbic c-1000',
-          price: '2,600',
+          price: '13,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151752/c-1000_ffkvzt.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
         },

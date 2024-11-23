@@ -57,27 +57,174 @@ export default {
       // Array of 20 demo products
       searchQuery: '',
       products: [
-        { name: 'Lotion', price: '2,000', image: 'https://via.placeholder.com/200?text=Lotion', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-      },
-        { name: 'Shampoo', price: '1,500', image: 'https://via.placeholder.com/200?text=Shampoo', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Cream', price: '3,000', image: 'https://via.placeholder.com/200?text=Face+Cream'  ,whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Sunscreen', price: '2,500', image: 'https://via.placeholder.com/200?text=Sunscreen',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Soap', price: '1,200', image: 'https://via.placeholder.com/200?text=Hand+Soap',whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Oil', price: '4,000', image: 'https://via.placeholder.com/200?text=Body+Oil', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shaving Gel', price: '1,800', image: 'https://via.placeholder.com/200?text=Shaving+Gel'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Deodorant', price: '1,000', image: 'https://via.placeholder.com/200?text=Deodorant', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Lip Balm', price: '600', image: 'https://via.placeholder.com/200?text=Lip+Balm', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Face Wash', price: '2,200', image: 'https://via.placeholder.com/200?text=Face+Wash', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Exfoliator', price: '2,500', image: 'https://via.placeholder.com/200?text=Exfoliator'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Nail Polish', price: '700', image: 'https://via.placeholder.com/200?text=Nail+Polish'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo Bar', price: '1,000', image: 'https://via.placeholder.com/200?text=Shampoo+Bar'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hand Cream', price: '1,500', image: 'https://via.placeholder.com/200?text=Hand+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Foot Cream', price: '1,700', image: 'https://via.placeholder.com/200?text=Foot+Cream'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Aftershave', price: '2,800', image: 'https://via.placeholder.com/200?text=Aftershave'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Body Scrub', price: '2,600', image: 'https://via.placeholder.com/200?text=Body+Scrub'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Facial Mask', price: '2,000', image: 'https://via.placeholder.com/200?text=Facial+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Hair Mask', price: '3,200', image: 'https://via.placeholder.com/200?text=Hair+Mask'  ,whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'},
-        { name: 'Shampoo and Conditioner Set', price: '4,500', image: 'https://via.placeholder.com/200?text=Shampoo+and+Conditioner+Set', whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.' }
+      {
+          name: 'VEET GOLD Sugar Whitening Soap',
+          price: '2,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337294/VEET_GOLD_Sugar_Whitening_Soap_gqubng.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'VEET GOLD Skin Whitening And Toning Transparent Soap X3',
+          price: '35,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337288/VEET_GOLD_Skin_Whitening_And_Toning_Transparent_Soap_X3_tr2viu.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Super Brightening Soap with GLUTA injection extracts',
+          price: '3,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337282/Super_Brightening_Soap_with_GLUTA_injection_extracts_idqju6.jpg',
+          whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'SNAPCHAT SOAP BLUE DIAMOND 150g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337273/SNAPCHAT_SOAP_BLUE_DIAMOND_150g_wsdbpx.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Smooth As Silk Extra Cool Complexion Toning Soap -200gm',
+          price: '2,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337263/Smooth_As_Silk_Extra_Cool_Complexion_Toning_Soap_-_200gm_detaqd.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Silka Whitening Herbal Soap Papaya Soap with Vitamin E Orange 135g',
+          price: '35,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337252/Silka_Whitening_Herbal_Soap_Papaya_Soap_with_Vitamin_E_Orange_135g_aexcab.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Purec Egyptian Secret Gold Soap 160g',
+          price: '3,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337237/Purec_Egyptian_Secret_Gold_Soap_160g_zvi4ow.webp',
+          whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Nano Extra White Nano Extra White Soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337224/Nano_Extra_White_Nano_Extra_White_Soap_iv3f02.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: "lumine super whitening soap",
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337215/lumine_super_whitening_soap_varhks.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'lilies kids teens milk soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337194/lilies_kids_teens_milk_soap_v39rqa.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Lee Tamarind Lamongrass Kojic Soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337184/Lee-Tamarind-Lamongrass-Kojic-Soap-LS04_b8obbk.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Jam Extra Carrot Gluta CollagenSoap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337166/Jam_Extra_Jam_Carrot_Gluta_Collagen_Soap_-_12_Pieces_zkywdi.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: "Jam Acne Herbal soap For Acne Dark Spots Blemish Control",
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337126/Jam_Acne_Herbal_Soap_For_Acne_Dark_Spots_Blemish_Control._Soap_yhww0l.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Idole Papaya Whitening Facial Soap 200g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337114/Idole-Papaya-Whitening-Facial-Soap-200g_toto0p.png',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Idole Lightening Exfoliating Bar Soap With Avocado Powder -200g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337094/Idole_Lightening_Exfoliating_Bar_Soap_With_Avocado_Powder-200g_Buy_product_at_Skinol_Cosmetics_website-_https-_skinol.com.ng_product_idole-lightening-exfoliating-bar-soap-with-avocado-powder-200g_u3e8p9.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'HalfCast VITAMIN-C SOAP',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337086/HALFCAST-VITAMIN-C-SOAP_oppht3.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Olay Vitamin C Body Wash',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732297025/Olay_Vitamin_C_Body_Wash_b60zqq.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'HalfCast Privilege Age defying',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337071/HalfCast_Privilege_Age-defying_Bar_Soap_po0h5j.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Glutathione Injection Strong Whitening Soap -200g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337063/Glutathione_Injection_Strong_Whitening_Soap_-200g_pdgzpr.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'GLUTA-C INTENSE WHITENING GLUTATHIONE PAPAYA SOAP',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337056/GLUTA_C_INTENSE_WHITENING_GLUTATHIONE_PAPAYA_SOAP_rvej4f.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'glow half cast extra fairness soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337046/glow-half-cast-extra-fairnes-soap_qdwzno.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Fair And White Paris Fair White So White Exfoliating',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337036/Fair_And_White_Paris_Fair_White_So_White_Exfoliating_Soap_qhxe1a.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Extract Whitening Herbal Soap-Papaya Calamansi',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337028/Extract_Whitening_Herbal_Soap_-_Papaya_Calamansi_vlrsov.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Eclaircissant Larissa Savon Carotte 225g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337021/Eclaircissant_Larissa_Savon_Carotte_225g_sypw3q.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Drip Carrot brightening soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337014/Drip_Carrot_brightening_soap_hlvbee.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Bavaria International Whitening Herbal Soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337010/Bavaria_International_Whitening_Herbal_Soap_nmu6td.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Baby Secret Baby Hand Made Bar Soap -80g',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337001/Baby-Secret-Baby-Hand-Made-Bar-Soap-80g-880_rs8aqs.png',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
+        {
+          name: 'Avenomade skin lightening black soap',
+          price: '2,500',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732336996/Avenomade_skin_lightening_black_soap_cpumuf.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
+        },
       ],
     };
   },
