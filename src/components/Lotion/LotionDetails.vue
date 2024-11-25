@@ -1,21 +1,55 @@
 <template>
-  <div class="flex flex-col justify-center items-start px-4 py-10  md:px-16">
+  <div class="flex flex-col justify-center items-start px-4 py-10 md:px-16">
     <!-- Section Title -->
-    <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Lotion Products & Prices</h2>
+    <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Shower Bath Products & Prices</h2>
 
+    <!-- Search Input and Dropdown -->
     <div class="mb-8 relative w-full max-w-md">
+      <div 
+        v-if="showDropdown && searchQuery" 
+        class="fixed inset-0 bg-black bg-opacity-50 z-10"
+        @click="showDropdown = false"
+      ></div>
       <input 
         v-model="searchQuery" 
         type="text" 
         placeholder="Search for a product..." 
-        class="w-full p-3 pl-8 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+        class="w-full p-3 pl-8 rounded-lg border px-8 border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+        @focus="showDropdown = true" 
+        @blur="hideDropdown"
+        @input="handleInput"
       />
       <!-- Search Button with Icon -->
       <button 
         @click="triggerSearch"
-        class="absolute left-1 top-1/3 transform -translate-y-1/2 text-[#B87F61] cursor-pointer hover:text-[#B87F61]  focus:outline-none focus:ring-2 focus:ring-[#B87F61]">
+        class="absolute left-1 top-1/3 transform -translate-y-1/2 
+        text-[#B87F61] cursor-pointer hover:text-[#B87F61] focus:outline-none focus:ring-2 focus:ring-[#B87F61]"
+        :class="{'shadow-lg': showDropdown}" 
+      >
         <i class="ri-search-line font-bold text-2xl"></i>
       </button>
+
+      <button 
+        v-if="searchQuery"
+        @click="clearSearch"
+        class="absolute right-2 top-1/3 transform -translate-y-1/2 text-gray-500 hover:text-[#B87F61] focus:outline-none"
+      >
+        <i class="ri-close-circle-line text-xl"></i>
+      </button>
+
+      <!-- Dropdown Suggestions -->
+      <ul 
+        v-show="showDropdown && filteredNames.length" 
+        class="absolute bg-[#ffffff] w-full max-w-md mt-1 rounded-lg border border-gray-300 shadow-lg z-10">
+        <li 
+          v-for="(product, index) in filteredNames" 
+          :key="index"
+          @mousedown.prevent="selectProduct(product.name)"
+          class="p-2 cursor-pointer hover:bg-[#B87F61]  text-sm hover:text-white rounded-lg"
+        >
+          {{ product.name }}
+        </li>
+      </ul>
     </div>
 
     <!-- Product Grid -->
@@ -36,13 +70,15 @@
         <div class="text-center">
           <h3 class="text-lg font-semibold text-[#B87F61] mb-2">{{ product.name }}</h3>
           <!-- WhatsApp Link -->
-          <a 
-            :href="product.whatsappLink" 
-            target="_blank" 
-            class="text-md font-medium text-gray-800 cursor-pointer hover:underline"
-          >
-            ₦ {{ product.price }}
-          </a>
+          <button class="p-2 border  hover:bg-[#B87F61] hover:text-white rounded-lg">
+            <a 
+              :href="product.whatsappLink" 
+              target="_blank" 
+              class="text-md font-medium  cursor-pointer "
+            > <i class="ri-whatsapp-line text-green-400"></i>
+              ₦ {{ product.price }}
+            </a>
+          </button>
         </div>
       </div>
     </div>
@@ -55,6 +91,7 @@ export default {
   data() {
     return {
       searchQuery: '',
+      showDropdown:false,
       products: [
       { 
         name: 'X7 CARROT SKIN WHITENING BODY LOTION', 
@@ -228,14 +265,6 @@ export default {
       image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119504/philino_bmnvs6.jpg', 
       whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Filipino injection.' 
     },
-
-    { 
-      name: 'Pr.Francoise Bedon Royal lightening lotion', 
-      price: '1,000', 
-      image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119485/paris_tkfypv.jpg', 
-      whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Pr.Francoise Bedon Royal lightening lotion.' 
-    },
-
     { 
       name: 'QEI+ paris privilege lait corporal', 
       price: '32,000', 
@@ -638,17 +667,96 @@ export default {
           price: '60,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118596/abebi_qg1phf.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying ABEBI WHITE GLUTATHIONE LOTION.'
+        },
+        {
+          name: 'ABEBI WHITE GLUTATHIONE LOTION',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118596/abebi_qg1phf.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying ABEBI WHITE GLUTATHIONE LOTION.'
+        },
+        {
+          name: 'PR.Francoise Bedon Paris Carotte 500ML',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479910/pr.FrancoiseBedonParisCarotte_nf837u.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.Francoise Bedon Paris Carotte 500ML.'
+        },
+        {
+          name: 'PR.FRANCOISE BEDON SUPREME LOTION LIGHTENING 500ML',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479902/PR._FRANCOISE_BEDON_SUPREME_LOTION_LIGHTENING_500_ML_bleisy.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.FRANCOISE BEDON SUPREME LOTION LIGHTENING 500ML.'
+        },
+        {
+          name: 'PR.Francoise Bedon Lightening Milk Royal Luxe 500ML',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479899/Pr._Francoise_Bedon_Lightening_Milk_Royal_Luxe_ai0doz.png',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.Francoise Bedon Lightening Milk Royal Luxe 500ML.'
+        },
+        {
+          name: 'Get your Elle 5 Lightening Perfumed Body Lotion 500ml',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479890/Get_your_Elle_5_Lightening_Perfumed_Body_Lotion_500ml._yjzngr.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Get your Elle 5 Lightening Perfumed Body Lotion 500ml.'
+        },
+        {
+          name: 'Carrot Magic Exclusive Whitening Face Body Milk',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479865/CarrotMagicExclusiveWhiteningFace_BodyMilk_dr5x35.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Carrot Magic Exclusive Whitening Face Body Milk.'
+        },
+        {
+          name: 'European White',
+          price: '60,000',
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479875/European_ehite_gold_xlzhwh.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying European White.'
         }
       ],
     };
   },
   computed:{
     filterProducts(){
-      return this.products.filter(product => {
+      return this.products.filter(product =>{
         return product.name.toLocaleLowerCase().includes(this.searchQuery.toLocaleLowerCase())
-      })
-    }
-  }
+      } )
+    },
+    filteredNames() {
+      if (!this.searchQuery) return [];
+      return this.products.filter((product) =>
+        product.name.toLowerCase().includes(this.searchQuery.toLowerCase())
+      );
+    },
+  },
+  methods:{
+    selectProduct(name) {
+      this.searchQuery = name;
+      this.showDropdown = false;
+    },
+    hideDropdown() {
+      // Use a timeout to allow click event registration on dropdown items
+      setTimeout(() => {
+        this.showDropdown = false;
+      }, 200);
+    },
+    handleClickOutside(event) {
+      const dropdown = this.$el.querySelector('.dropdown-container'); 
+      if (dropdown && !dropdown.contains(event.target)) {
+        this.showDropdown = false;
+      }
+    },
+    clearSearch() {
+      this.searchQuery = '';
+      this.showDropdown = false;
+    },
+    handleInput() {
+      this.showDropdown = !!this.searchQuery; 
+    },
+  },
+  mounted() {
+    document.addEventListener('click', this.handleClickOutside);
+  },
+  beforeDestroy() {
+    document.removeEventListener('click', this.handleClickOutside);
+  },
 };
 </script>
 

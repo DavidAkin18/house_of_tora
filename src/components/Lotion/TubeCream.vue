@@ -1,23 +1,56 @@
 <template>
-  <div class="flex flex-col justify-center items-start px-4 py-10  md:px-16">
+  <div class="flex flex-col justify-center items-start px-4 py-10 md:px-16">
     <!-- Section Title -->
-    <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Tube Cream Products & Prices</h2>
+    <h2 class="text-3xl font-bold text-center text-[#B87F61] mb-8">Shower Bath Products & Prices</h2>
 
+    <!-- Search Input and Dropdown -->
     <div class="mb-8 relative w-full max-w-md">
+      <div 
+        v-if="showDropdown && searchQuery" 
+        class="fixed inset-0 bg-black bg-opacity-50 z-10"
+        @click="showDropdown = false"
+      ></div>
       <input 
         v-model="searchQuery" 
         type="text" 
         placeholder="Search for a product..." 
-        class="w-full p-3 pl-8 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+        class="w-full p-3 pl-8 rounded-lg border px-8 border-gray-300 focus:outline-none focus:ring-2 focus:ring-[#B87F61] mb-4"
+        @focus="showDropdown = true" 
+        @blur="hideDropdown"
+        @input="handleInput"
       />
       <!-- Search Button with Icon -->
       <button 
         @click="triggerSearch"
-        class="absolute left-1 top-1/3 transform -translate-y-1/2 text-[#B87F61] cursor-pointer hover:text-[#B87F61]  focus:outline-none focus:ring-2 focus:ring-[#B87F61]">
+        class="absolute left-1 top-1/3 transform -translate-y-1/2 
+        text-[#B87F61] cursor-pointer hover:text-[#B87F61] focus:outline-none focus:ring-2 focus:ring-[#B87F61]"
+        :class="{'shadow-lg': showDropdown}" 
+      >
         <i class="ri-search-line font-bold text-2xl"></i>
       </button>
-    </div>
 
+      <button 
+        v-if="searchQuery"
+        @click="clearSearch"
+        class="absolute right-2 top-1/3 transform -translate-y-1/2 text-gray-500 hover:text-[#B87F61] focus:outline-none"
+      >
+        <i class="ri-close-circle-line text-xl"></i>
+      </button>
+
+      <!-- Dropdown Suggestions -->
+      <ul 
+        v-show="showDropdown && filteredNames.length" 
+        class="absolute bg-[#ffffff] w-full max-w-md mt-1 rounded-lg border border-gray-300 shadow-lg z-10">
+        <li 
+          v-for="(product, index) in filteredNames" 
+          :key="index"
+          @mousedown.prevent="selectProduct(product.name)"
+          class="p-2 cursor-pointer hover:bg-[#B87F61]  text-sm hover:text-white rounded-lg"
+        >
+          {{ product.name }}
+        </li>
+      </ul>
+    </div>
 
     <!-- Product Grid -->
     <div class="grid grid-cols-1 w-full sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -37,13 +70,15 @@
         <div class="text-center">
           <h3 class="text-lg font-semibold text-[#B87F61] mb-2">{{ product.name }}</h3>
           <!-- WhatsApp Link -->
-          <a 
-            :href="product.whatsappLink" 
-            target="_blank" 
-            class="text-md font-medium text-gray-800 cursor-pointer hover:underline"
-          >
-            ₦ {{ product.price }}
-          </a>
+          <button class="p-2 border  hover:bg-[#B87F61] hover:text-white rounded-lg">
+            <a 
+              :href="product.whatsappLink" 
+              target="_blank" 
+              class="text-md font-medium  cursor-pointer "
+            > <i class="ri-whatsapp-line text-green-400"></i>
+              ₦ {{ product.price }}
+            </a>
+          </button>
         </div>
       </div>
     </div>
@@ -56,6 +91,7 @@ export default {
   data() {
     return {
       searchQuery:'',
+      showDropdown:false,
       products: [
         { 
           name: 'AMOSCLEAR SPOT GEL CREAM', 
@@ -184,6 +220,86 @@ export default {
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732194813/FaceFactsCeramideEyeCream_zl8bkp.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the CERAMIDE SKIN BARRIER COMPLEX' 
         },
+
+
+        { 
+          name: 'Ezanic Azelaic Acid Gel 15g', 
+          price: '2,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480287/EzanicAzelaicAcidGel20_15g_njtb1n.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Ezanic Azelaic Acid Gel 15g.'
+        },
+        { 
+          name: 'Cindella Vitamin C Injection Tube Cream', 
+          price: '2,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480280/CindellaVitaminCInjectionTubeCream_dmwynz.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Cindella Vitamin C Injection Tube Cream.'
+        },
+        { 
+          name: 'Abebi White Gluta Black Treatment Action Rapid tube cream', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480273/AbebiWhiteGlutaBlackTraitementsActionRapid_tube_cream_lp5eps.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Abebi White Gluta Black Treatment Action Rapid tube cream.'
+        },
+        { 
+          name: 'Generic Gbobonise For Skin Tube Cream', 
+          price: '2,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480309/GenericGboboniseForSkinTubeCream_bgbsxt.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Generic Gbobonise For Skin Tube Cream.'
+        },
+        { 
+          name: 'Kojivit Ultra', 
+          price: '2,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480341/KojivitUltra_kcmmj5.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Kojivit Ultra.'
+        },
+        { 
+          name: 'Melalite Forte Hydroquinone Cream', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480349/Melalite_Forte_Hydroquinone_Cream_pnnkzi.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Melalite Forte Hydroquinone Cream.'
+        },
+        { 
+          name: 'Melanofree Cream', 
+          price: '2,000', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480358/melanofree-cream_brpcyk.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Melanofree Cream.'
+        },
+        { 
+          name: 'Menarini A Ret Tretinoin Gel', 
+          price: '2,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480368/Menarini_A-Ret_Tretinoin_Gel_0.05_Retin_A_20G_lk22jp.png', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Menarini A Ret Tretinoin Gel.'
+        },
+        { 
+          name: 'OXY 10', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480376/OXY10_rwps7a.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying OXY 10.'
+        },
+        { 
+          name: 'revuele SOS anti-inflamation Spot Treatment Salicylic Acid Gel', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480385/revueleSOSanti-inflamationSpotTreatmentSalicylicAcidGel_w8v18s.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying revuele SOS anti-inflamation Spot Treatment Salicylic Acid Gel.'
+        },
+        { 
+          name: 'Tretinion Gel USP', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480394/TretinionGelUSP_tdz2tn.webp', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Tretinion Gel USP.'
+        },
+        { 
+          name: 'White Gluta Berry white tube cream', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480410/White_Gluta_Berry_white_tube_cream_avsznq.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying White Gluta Berry white tube cream.'
+        },
+        { 
+          name: 'Zapzyt', 
+          price: '4,500', 
+          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480420/Zapzyt_a1docy.jpg', 
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Zapzyt.'
+        }
       ]
     };
   },
@@ -191,9 +307,46 @@ export default {
     filterProducts(){
       return this.products.filter(product =>{
         return product.name.toLocaleLowerCase().includes(this.searchQuery.toLocaleLowerCase())
-      })
-    }
-  }
+      } )
+    },
+    filteredNames() {
+      if (!this.searchQuery) return [];
+      return this.products.filter((product) =>
+        product.name.toLowerCase().includes(this.searchQuery.toLowerCase())
+      );
+    },
+  },
+  methods:{
+    selectProduct(name) {
+      this.searchQuery = name;
+      this.showDropdown = false;
+    },
+    hideDropdown() {
+      // Use a timeout to allow click event registration on dropdown items
+      setTimeout(() => {
+        this.showDropdown = false;
+      }, 200);
+    },
+    handleClickOutside(event) {
+      const dropdown = this.$el.querySelector('.dropdown-container'); 
+      if (dropdown && !dropdown.contains(event.target)) {
+        this.showDropdown = false;
+      }
+    },
+    clearSearch() {
+      this.searchQuery = '';
+      this.showDropdown = false;
+    },
+    handleInput() {
+      this.showDropdown = !!this.searchQuery; 
+    },
+  },
+  mounted() {
+    document.addEventListener('click', this.handleClickOutside);
+  },
+  beforeDestroy() {
+    document.removeEventListener('click', this.handleClickOutside);
+  },
 };
 </script>
 
