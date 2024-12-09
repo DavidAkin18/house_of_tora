@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-[#B87F61] py-8 px-4 md:py-12 md:px-16">
+    <div class="bg-[#B87F61] px-4 md:px-16 py-14 lg:py-28">
       <div class="flex flex-col md:flex-row justify-between space-y-8 md:space-y-0 md:space-x-8">
         
         <!-- About Section -->
@@ -10,9 +10,9 @@
             class="h-16"
           >
           <p class="leading-relaxed">
-            The innovation of this marvel cream dates back to 1948. In Veyangoda, a city in the Gampaha District, 
-            there was an Ayurvedic shop owned by renowned Ayurvedic Physician Dr. R. D. P Jayaratne. 
-            He inherited this shop from his forefathers.
+            House of Toro, a name synonymous with quality and elegance, has been a trusted choice for generations. Rooted in a rich heritage, the brand offers a diverse range of skincare and beauty products. From nourishing creams to radiant lotions, each product is meticulously crafted to enhance natural beauty and promote healthy skin.
+
+Join us on a journey of timeless beauty.
           </p>
         </div>
   

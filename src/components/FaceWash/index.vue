@@ -65,11 +65,18 @@ export default {
       activeComponent: 'faceWash' // Default component to show FaceWashDetails
     };
   },
+  mounted() {
+    const savedComponent = localStorage.getItem('activeComponent');
+    if (savedComponent) {
+      this.activeComponent = savedComponent;
+    }
+  },
   methods: {
     toggleComponent(component) {
       this.activeComponent = component;
+      localStorage.setItem('activeComponent', component);
     }
-  }
+  },
 }
 </script>
 

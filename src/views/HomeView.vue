@@ -3,7 +3,9 @@
     <Navbar/>
     <Hero id="home"/>
     <Spacing />
+    <ToroProducts />
     <Product id="products"/>
+    
     <About id="about" />
     <CustomerReview/>
     <Footer/>
@@ -19,11 +21,12 @@ import Product from '@/components/Home/Product.vue'
 import Footer from '@/components/Footer.vue'
 import Spacing from '@/components/Spacing.vue'
 import CustomerReview from '@/components/Home/CustomerReview.vue'
+import ToroProducts from '@/components/Home/ToroProducts.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    Navbar,Hero,About,Product,Footer,Spacing, CustomerReview
+    Navbar,Hero,About,Product,Footer,Spacing, CustomerReview,ToroProducts
   }
 }
 </script>

@@ -95,7 +95,7 @@ export default {
       products: [
       { 
         name: 'X7 CARROT SKIN WHITENING BODY LOTION', 
-        price: '5,500', 
+        price: '6,000', 
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732120013/X7_Carrot_Skin_Whitening_Body_Lotion_vhkdgx.jpg', 
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the X7 CARROT SKIN WHITENING BODY LOTION product.'
     },
@@ -130,13 +130,13 @@ export default {
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VASELINE SUPERFOOD FRESHLOCK product.'
     },
     { 
-        name: 'VASELINE LARGE', 
+        name: 'VASELINE Big', 
         price: '16,000', 
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119848/VASELINE-UV-BRGT-large_hg3kce.jpg', 
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VASELINE LARGE product.'
     },
     { 
-        name: 'VASELINE MEDIUM', 
+        name: 'VASELINE Small', 
         price: '12,000', 
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119848/VASELINE-UV-BRGT-large_hg3kce.jpg', 
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VASELINE MEDIUM product.'
@@ -149,7 +149,7 @@ export default {
     },
     { 
         name: 'ULTIMATE ALIYA BODY LOTION', 
-        price: '6,000', 
+        price: '9,000', 
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119822/ultimateAliya_xyjgyi.jpg', 
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the ULTIMATE ALIYA BODY LOTION product.'
     },
@@ -390,7 +390,7 @@ export default {
       }, 
       { 
         name: 'ANEEZA GOLD', 
-        price: '6,500', 
+        price: '9,000', 
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732119172/laitAneeza_jtd8fr.png', 
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying LAIT ANEEZA.' 
       }, 
@@ -552,7 +552,7 @@ export default {
         }, 
         { 
           name: "DR TEAL'S", 
-          price: '2,800', 
+          price: '12,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118825/drTeals_butjrg.jpg', 
           whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying DR TEAL'S." 
         }, 
@@ -582,13 +582,13 @@ export default {
         }, 
         { 
           name: 'CLEAR NATURE ORIGINAL NATURAL FAIRNESS BODY LOTION', 
-          price: '4,500', 
+          price: '18,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118746/clear_nature_mavriu.png', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying CLEAR NATURE ORIGINAL NATURAL FAIRNESS BODY LOTION.' 
         }, 
         { 
           name: 'CELEBRITY HALF CAST', 
-          price: '4,500', 
+          price: '9,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118721/celebrityhalfcast_keu6fr.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying CELEBRITY HALF CAST.' 
         },
@@ -601,14 +601,14 @@ export default {
 
         { 
           name: 'BOOTS BABY MOISTURISING LOTION',
-          price: '4,500',
+          price: '6,500',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118700/bootsbaby_epql5d.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying BOOTS BABY MOISTURISING LOTION.'
         },
 
         { 
           name: 'BLACK OPAL BODY RENEWAL LOTION',
-          price: '4,500',
+          price: '6,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118692/Black_Opal_Body_Renewal_Lotion_1600x_s9ro64.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying BLACK OPAL BODY RENEWAL LOTION.'
         },
@@ -622,20 +622,26 @@ export default {
 
         { 
           name: 'BABY SECRET AMINO ACIDS MEDIUM',
-          price: '4,500',
+          price: '9,500',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118667/babysecret_bpczdj.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying BABY SECRET AMINO ACIDS LARGE.'
         },
 
         { 
           name: 'AMLACTIN DAILY MOISTURISING BODY LOTION SMALL',
-          price: '38,000',
+          price: '36,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118648/amlactinBig_aldlsa.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying AMLACTIN DAILY MOISTURISING BODY LOTION SMALL.'
         },
+        { 
+          name: 'AMLACTIN DAILY vitamin c BODY LOTION SMALL',
+          price: '38,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0HiHF97EmC69IYry3dbDZtyk55B6pcTQPLg&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying AMLACTIN vitamin c BODY LOTION SMALL.'
+        },
 
         { 
-          name: 'AMLACTIN DAILY MOISTURISING BODY LOTION LARGE',
+          name: 'AMLACTIN DAILY MOISTURISING BODY LOTION Big',
           price: '45,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118648/amlactinBig_aldlsa.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying AMLACTIN DAILY MOISTURISING BODY LOTION LARGE.'
@@ -662,12 +668,7 @@ export default {
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying ACTIVE CAVIAR DRIP.'
         },
 
-        { 
-          name: 'ABEBI WHITE GLUTATHIONE LOTION',
-          price: '60,000',
-          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732118596/abebi_qg1phf.jpg',
-          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying ABEBI WHITE GLUTATHIONE LOTION.'
-        },
+       
         {
           name: 'ABEBI WHITE GLUTATHIONE LOTION',
           price: '60,000',
@@ -676,37 +677,37 @@ export default {
         },
         {
           name: 'PR.Francoise Bedon Paris Carotte 500ML',
-          price: '60,000',
+          price: '28,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479910/pr.FrancoiseBedonParisCarotte_nf837u.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.Francoise Bedon Paris Carotte 500ML.'
         },
         {
           name: 'PR.FRANCOISE BEDON SUPREME LOTION LIGHTENING 500ML',
-          price: '60,000',
+          price: '28,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479902/PR._FRANCOISE_BEDON_SUPREME_LOTION_LIGHTENING_500_ML_bleisy.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.FRANCOISE BEDON SUPREME LOTION LIGHTENING 500ML.'
         },
         {
           name: 'PR.Francoise Bedon Lightening Milk Royal Luxe 500ML',
-          price: '60,000',
+          price: '31,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479899/Pr._Francoise_Bedon_Lightening_Milk_Royal_Luxe_ai0doz.png',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying PR.Francoise Bedon Lightening Milk Royal Luxe 500ML.'
         },
         {
           name: 'Get your Elle 5 Lightening Perfumed Body Lotion 500ml',
-          price: '60,000',
+          price: '6,500',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479890/Get_your_Elle_5_Lightening_Perfumed_Body_Lotion_500ml._yjzngr.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Get your Elle 5 Lightening Perfumed Body Lotion 500ml.'
         },
         {
           name: 'Carrot Magic Exclusive Whitening Face Body Milk',
-          price: '60,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479865/CarrotMagicExclusiveWhiteningFace_BodyMilk_dr5x35.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Carrot Magic Exclusive Whitening Face Body Milk.'
         },
         {
           name: 'European White',
-          price: '60,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732479875/European_ehite_gold_xlzhwh.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying European White.'
         }

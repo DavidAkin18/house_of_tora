@@ -53,10 +53,18 @@ export default {
       activeComponent: 'scrubDetails' // Default component to show ScrubDetails
     };
   },
+  mounted() {
+    const savedComponent = localStorage.getItem('activeComponent');
+    if (savedComponent) {
+      this.activeComponent = savedComponent;
+    }
+  },
   methods: {
     toggleComponent(component) {
+      // Update the active component and save it to localStorage
       this.activeComponent = component;
+      localStorage.setItem('activeComponent', component);
     }
-  }
+  },
 }
 </script>

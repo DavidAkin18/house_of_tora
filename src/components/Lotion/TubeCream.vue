@@ -95,7 +95,7 @@ export default {
       products: [
         { 
           name: 'AMOSCLEAR SPOT GEL CREAM', 
-          price: '2,500', 
+          price: '4,500', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142523/amosclear-spot-gel-cream_knqrve.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the AMOSCLEAR SPOT GEL CREAM product.' 
         },
@@ -125,13 +125,13 @@ export default {
         },
         { 
           name: 'EPIDERM CREAM', 
-          price: '2,500', 
+          price: '1,500', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142584/Epiderm-cream_fq7x3d.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the EPIDERM CREAM product.' 
         },
         { 
           name: 'FEAH WHITENING BEAUTY', 
-          price: '3,000', 
+          price: '3,500', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142589/feah-whitening-beauty_pvsyz2.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the FEAH WHITENING BEAUTY product.' 
         },
@@ -174,13 +174,13 @@ export default {
         },
         { 
           name: 'MIRACLE DERM CREAM', 
-          price: '2,000', 
+          price: '2,500', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142656/miracle-derm_cream_md8tuq.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the MIRACLE DERM CREAM product.' 
         },
         { 
           name: 'NEOPROSONE-GEL FORTE', 
-          price: '2,500', 
+          price: '2,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142667/neoprosone-gel_forte_omrsat.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the NEOPROSONE-GEL FORTE product.' 
         },
@@ -210,7 +210,7 @@ export default {
         },
         { 
           name: 'YTACAN CLOTRIMAZOLE CREAM', 
-          price: '2,500', 
+          price: '2,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732142719/Ytacan-clotrimazole-cream_ippidl.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the YTACAN CLOTRIMAZOLE CREAM product.' 
         },
@@ -224,79 +224,79 @@ export default {
 
         { 
           name: 'Ezanic Azelaic Acid Gel 15g', 
-          price: '2,000', 
+          price: '10,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480287/EzanicAzelaicAcidGel20_15g_njtb1n.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Ezanic Azelaic Acid Gel 15g.'
         },
         { 
           name: 'Cindella Vitamin C Injection Tube Cream', 
-          price: '2,500', 
+          price: '5,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480280/CindellaVitaminCInjectionTubeCream_dmwynz.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Cindella Vitamin C Injection Tube Cream.'
         },
         { 
           name: 'Abebi White Gluta Black Treatment Action Rapid tube cream', 
-          price: '4,500', 
+          price: '5,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480273/AbebiWhiteGlutaBlackTraitementsActionRapid_tube_cream_lp5eps.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Abebi White Gluta Black Treatment Action Rapid tube cream.'
         },
         { 
           name: 'Generic Gbobonise For Skin Tube Cream', 
-          price: '2,000', 
+          price: '1,700', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480309/GenericGboboniseForSkinTubeCream_bgbsxt.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Generic Gbobonise For Skin Tube Cream.'
         },
         { 
           name: 'Kojivit Ultra', 
-          price: '2,500', 
+          price: '16,500', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480341/KojivitUltra_kcmmj5.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Kojivit Ultra.'
         },
         { 
           name: 'Melalite Forte Hydroquinone Cream', 
-          price: '4,500', 
+          price: '10,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480349/Melalite_Forte_Hydroquinone_Cream_pnnkzi.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Melalite Forte Hydroquinone Cream.'
         },
         { 
           name: 'Melanofree Cream', 
-          price: '2,000', 
+          price: '10,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480358/melanofree-cream_brpcyk.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Melanofree Cream.'
         },
         { 
           name: 'Menarini A Ret Tretinoin Gel', 
-          price: '2,500', 
+          price: '10,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480368/Menarini_A-Ret_Tretinoin_Gel_0.05_Retin_A_20G_lk22jp.png', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Menarini A Ret Tretinoin Gel.'
         },
         { 
           name: 'OXY 10', 
-          price: '4,500', 
+          price: '6,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480376/OXY10_rwps7a.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying OXY 10.'
         },
         { 
           name: 'revuele SOS anti-inflamation Spot Treatment Salicylic Acid Gel', 
-          price: '4,500', 
+          price: '6,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480385/revueleSOSanti-inflamationSpotTreatmentSalicylicAcidGel_w8v18s.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying revuele SOS anti-inflamation Spot Treatment Salicylic Acid Gel.'
         },
         { 
           name: 'Tretinion Gel USP', 
-          price: '4,500', 
+          price: '10,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480394/TretinionGelUSP_tdz2tn.webp', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Tretinion Gel USP.'
         },
         { 
           name: 'White Gluta Berry white tube cream', 
-          price: '4,500', 
+          price: '5,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480410/White_Gluta_Berry_white_tube_cream_avsznq.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying White Gluta Berry white tube cream.'
         },
         { 
           name: 'Zapzyt', 
-          price: '4,500', 
+          price: '17,000', 
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732480420/Zapzyt_a1docy.jpg', 
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Zapzyt.'
         }

@@ -53,10 +53,23 @@ export default {
       activeComponent: 'showerBath' // Default component to show ShowerBath
     };
   },
+  mounted() {
+    let savedComponent;
+    let a = savedComponent
+    if(a){
+      savedComponent = localStorage.getItem('activeComponent');
+      if (savedComponent) {
+        this.activeComponent = savedComponent;
+      }
+    }
+    
+  },
   methods: {
     toggleComponent(component) {
       this.activeComponent = component;
+      localStorage.setItem('activeComponent', component);
     }
-  }
+  },
+  
 }
 </script>

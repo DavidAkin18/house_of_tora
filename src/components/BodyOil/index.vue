@@ -66,11 +66,16 @@ export default {
       activeComponent: 'bodyOil' // Default component to show BodyOilDetails
     };
   },
+  mounted() {
+    const savedComponent = localStorage.getItem('activeComponent');
+    this.activeComponent = savedComponent || 'bodyOil';
+  },
   methods: {
     toggleComponent(component) {
       this.activeComponent = component;
+      localStorage.setItem('activeComponent', component);
     }
-  }
+  },
 }
 </script>
 

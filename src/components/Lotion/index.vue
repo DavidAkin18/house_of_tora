@@ -58,11 +58,16 @@ export default {
       activeComponent: 'lotion' // default to showing LotionDetails initially
     };
   },
+  mounted() {
+    const savedComponent = localStorage.getItem('activeComponent');
+    this.activeComponent = savedComponent || 'lotion';
+  },
   methods: {
     toggleComponent(component) {
       this.activeComponent = component;
+      localStorage.setItem('activeComponent', component);
     }
-  }
+  },
 }
 </script>
 

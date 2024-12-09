@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-white min-h-16 overflow-hidden  px-4 md:px-16">
+    <div class="bg-white min-h-16 overflow-hidden  px-4 md:px-16 border-y">
       <div class="scrolling-container">
         <div class="logo mx-4" v-for="brand in brands" :key="brand">
           <img :src="brand" alt="Brand Logo" class="h-12 mx-4" />

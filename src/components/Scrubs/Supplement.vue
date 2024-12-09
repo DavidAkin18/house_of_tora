@@ -96,103 +96,103 @@ export default {
       products: [
         {
           name: 'Wins Town Weight Gainer',
-          price: '2,000',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152160/WinsTownWeightGainer_siygn4.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Wins Town Weight Gainer.'
         },
         {
           name: 'white Filter Skin Beauty',
-          price: '35,000',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152145/whiteFilterSkinBeauty_wsrn4m.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the white Filter Skin Beauty.'
         },
         {
           name: 'White Doll',
-          price: '3,000',
+          price: '45,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152135/WhiteDoll_vuecvl.jpg',
           whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the White Doll.'
         },
         {
           name: 'White Babe Whitening And Energy Booster',
-          price: '2,500',
+          price: '45,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152118/WhiteBabeWhiteningAndEnergyBooster_prmpao.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the White Babe Whitening And Energy Booster.'
         },
         {
-          name: 'solgar evening primrose oil 500-mg 90 soft gel',
-          price: '1,200',
-          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152039/solgar-evening-primrose-oil-500-mg-90-softjel-kcm83847060-1-eb93517c2ea5453cbd39217c92e8c004_bsridk.jpg',
-          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the solgar evening primrose oil 500-mg 90 soft gel.'
+          name: 'Evening primrose oil 500-mg 90 soft gel',
+          price: '18,000',
+          image: 'https://ng.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/02/0988253/1.jpg?8764',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Evening primrose oil 500-mg 90 soft gel.'
         },
         {
           name: 'Vitamin C For Kids Gummies',
-          price: '4,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152085/VitamincForKidsGummies_jkkkf5.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Vitamin C For Kids Gummies.'
         },
         {
           name: 'vita-source natural b carotene capsule',
-          price: '1,800',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152075/vita_source-natural-b-carotene-capsules_m2pnps.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the vita-source natural b carotene capsule.'
         },
         {
-          name: 'vit-c-1000',
+          name: 'Vitamin C 1000',
           price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152068/vit-c-1000_imx20s.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the vit-c-1000.'
         },
         {
           name: 'Super Curry Weight Gain',
-          price: '600',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152060/superCurrryWeightGain_htul5k.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Super Curry Weight Gain.'
         },
         {
           name: 'SOQ gluta and collagen',
-          price: '2,200',
+          price: '18,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152051/SOQ-gluta-and-collagen_k4tq0b.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the SOQ gluta and collagen.'
         },
         {
           name: 'skin whitening vitamins gummies',
-          price: '2,500',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152027/skin-whitening-vitamins-gummies_bvrssy.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the skin whitening vitamins gummies.'
         },
         {
           name: 'skandal White Blinks',
-          price: '700',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152014/skandalWhiteBlinks_ehafbu.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the skandal White Blinks.'
         },
         {
           name: 'Skandal Miracle Pure White Glutathione',
-          price: '1,000',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732152004/Skandal-Miracle-Pure-White-Glutathione-300x300-1_vdaymg.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Skandal Miracle Pure White Glutathione.'
         },
         {
           name: 'satin skin white blanc',
-          price: '1,500',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151994/satinskinzwhiteblanc_s8fndq.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the satin skin white blanc.'
         },
         {
           name: 'pro collagen fruit pectin gummies',
-          price: '1,700',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151985/pro-collagen-fruit-pectin-gummies_kmvzdn.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the pro collagen fruit pectin gummies.'
         },
         {
           name: 'PMS Relief Gummies',
-          price: '2,800',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151974/PMS-Relief-Gummies_fcbr1l.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the PMS Relief Gummies.'
         },
         {
           name: 'pearl white pinky plus',
-          price: '2,600',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151964/pinkyplus_lorxtv.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the pearl white pinky plus.'
         },
@@ -204,112 +204,148 @@ export default {
         },
         {
           name: 'ONNY Collagen Capsules',
-          price: '3,200',
+          price: '15,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151943/ONNY-Collagen-Capsules_rrslup.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the ONNY Collagen Capsules.'
         },
         {
-          name: 'natures cure anti-aging renew',
-          price: '4,500',
+          name: 'Natures cure Anti-aging Renew',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151933/natures-cure-anti-aging-renew_uoivue.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the natures cure anti-aging renew.'
         },
         {
           name: 'nature cure anti aging gummies',
-          price: '2,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151924/naturecure-anti-aging-gummies_lis5gt.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the nature cure anti aging gummies.'
         },
         {
           name: 'nature cure whitening gummies strawberry flavour',
-          price: '1,500',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151913/nature-cure-whitening-gummies-strawberry-flavour_g9u46r.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the nature cure whitening gummies strawberry flavour.'
         },
         {
           name: 'ladies Shine',
-          price: '3,000',
-          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151902/LadiesShine_bjofvf.jpg',
+          price: '10,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyXgqI-LZqINFXtoAvej7fZ6kX1YE6qXQmpQ&s',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Ladies Shine.'
         },
 
         {
           name: 'ladies Collagen',
-          price: '2,500',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151889/ladiesCollagen_vnjxyb.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the ladies Collagen.'
         },
         {
           name: 'Kumiko Collagen Salmon',
-          price: '1,200',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151877/KumikoCollagenSalmon_pppz5t.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Kumiko Collagen Salmon.'
         },
         {
-          name: 'juliet Ava',
-          price: '4,000',
+          name: 'juliet Eve',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151868/julietAva_tzrbhe.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the juliet Ava.'
         },
         {
           name: 'joju Collagen',
-          price: '1,800',
+          price: '18,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151860/jojuCollagen_ydq7uo.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the joju Collagen.'
         },
         {
           name: 'herbal Hip Or Butt Enlargement',
-          price: '1,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151853/herbalHipOrButtEnlargement_a9hdaz.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the herbal Hip Or Butt Enlargement.'
         },
         {
           name: 'Gluta White Sparkle',
-          price: '600',
+          price: '40,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151846/GlutaWhiteSparkle_hbzlpl.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Gluta White Sparkle.'
         },
         {
           name: 'glutathione collagen glow',
-          price: '2,200',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151832/glutathione-collagen-glow_ven0pg.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the glutathione collagen glow.'
         },
         {
-          name: 'gluta Collagen big size',
-          price: '2,500',
-          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151818/glutaCollagen_qsu4xp.jpg',
-          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the gluta Collagen big size.'
+          name: 'Froza Tomato Collagen',
+          price: '10,000',
+          image: 'https://mycarekits.com/cdn/shop/products/image_93f3d710-d03d-474c-baee-240a2834802c_1200x1200.png?v=1660375324',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Froza Tomato Collagen.'
+        },
+        {
+          name: 'Frozen Detox Collagen',
+          price: '10,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUIeWmSB4oCwupLTgbRAyF3WcrMJy1oNpXYQ&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Frozen Detox Collagen.'
+        },
+        {
+          name: 'Froza Vitamin C+ Collagen',
+          price: '10,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdJnN2kGMVA4PtpggE571qickTQ2WTeuTMJw&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Froza Vitamin C+ Collagen.'
+        },
+        {
+          name: 'Gluta Primme V2M',
+          price: '10,000',
+          image: 'https://pictures-nigeria.jijistatic.net/121618172_NjIwLTgyNy0wNTkzOWJhM2VlLTM.webp',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Gluta Primme V2M.'
+        },
+        {
+          name: 'Frozen Collagen 2 in 1',
+          price: '10,000',
+          image: 'https://www-konga-com-res.cloudinary.com/f_auto,fl_lossy,dpr_3.0,q_auto/media/catalog/product/B/E/182332_1614552057.jpg',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Frozen Collagen 2 in 1.'
+        },
+        {
+          name: '100% Aguaje Gummy ',
+          price: '15,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBClVycRhfM52txS3D4NzGO1Kpfq2-PmhrfA&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the 100% Aguaje Gummy.'
+        },
+        {
+          name: 'WinsTown Maca Plus',
+          price: '12,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnq2WSjn9Gba5O1pl6ho0wgpZunGSuLZPcFw&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the WinsTown Maca Plus.'
+        },
+        {
+          name: 'WinsTown Hip Butt Enhancing Gummies',
+          price: '10,000',
+          image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq-xqDqGvZjlEfjNiAjm3im_tEaqN46LnK4A&s',
+          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the WinsTown Maca Plus.'
         },
         {
           name: 'fevert hb hair skin nails Big size',
-          price: '700',
+          price: '25,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151796/fevert-hb_hair-skin-nails-Big_fzat06.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the fevert hb hair skin nails Big size.'
         },
         {
           name: 'fevert hb hair skin nails small size',
-          price: '1,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151787/fevert-hb_hair-skin-nails_small_uofoxe.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the fevert hb hair skin nails small size.'
         },
         {
           name: 'dynewell',
-          price: '1,500',
+          price: '6,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151774/dynewell_evuesp.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the dynewell.'
         },
         {
           name: 'ultra potency vitamin C gummies',
-          price: '1,700',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151765/daynrr-vitamin-c-gummies_kgawax.webp',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the ultra potency vitamin C gummies.'
-        },
-        {
-          name: 'Magnesium with vitamin b6',
-          price: '2,800',
-          image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151757/cc-plus-zinc_qcfo3o.jpg',
-          whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Magnesium with vitamin b6.'
         },
         {
           name: 'Acorbic c-1000',
@@ -319,13 +355,13 @@ export default {
         },
         {
           name: 'bluta Berry',
-          price: '2,000',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151744/blutaBerry_fjmclk.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the bluta Berry.'
         },
         {
           name: 'BBL Gummies',
-          price: '3,200',
+          price: '10,000',
           image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732151736/BBL-Gummies_ynypop.jpg',
           whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the BBL Gummies.'
         }

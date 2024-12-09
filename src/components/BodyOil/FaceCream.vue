@@ -96,19 +96,19 @@ export default {
       products: [
       {
         name: 'White Extra Whitening Face Cream with Collagen',
-        price: '2,500',
+        price: '8,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732343819/Xx-White_Extra_Whitening_Face_Cream_with_Collagen_wxcqud.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying White Extra Whitening Face Cream with Collagen.'
       },
       {
         name: 'White Light Baby Face Whitening Cream',
-        price: '2,500',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732343813/WhiteLightBabyFaceWhiteningCrem_yia7xg.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying White Light Baby Face Whitening Cream.'
       },
       {
         name: 'white spot removing anti spot cream',
-        price: '2,500',
+        price: '6,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732343804/white_spot_removing_anti_spot_cream_gno0vr.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying white spot removing anti spot cream.'
       },
@@ -345,6 +345,30 @@ export default {
         price: '2,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732481055/AilkeSuperiorWhiteningSmoothenWhitening_j8xenp.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Ailke Superior Whitening Smoothen Whitening.'
+      },
+      {
+        name: 'Pacci Pristine Slime Luxe Essence Hydrator',
+        price: '2,500',
+        image: 'https://salescabal.s3.eu-west-3.amazonaws.com/stores/5998/products/68b9937e58a7e9fde6bd44e5045654c63a0a78c2.jpeg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Pacci Pristine Slime Luxe Essence Hydrator'
+      },
+      {
+        name: 'Pacci Pristine Slime Luxe Moisturizer',
+        price: '2,500',
+        image: 'https://salescabal.s3.eu-west-3.amazonaws.com/stores/5998/products/42b9b1e3a740f557e39b327c6309689d052bc810.jpeg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Pacci Pristine Slime Luxe Moisturizer'
+      },
+      {
+        name: 'Berg White Miracle Anti-mark Cream',
+        price: '2,500',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPRhSfjgKzUtIqpRBplYh_W999YDm2GIl0zg&s',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Berg White Miracle Anti-mark Cream'
+      },
+      {
+        name: 'Face Fact Vitamin C Face Cream',
+        price: '2,500',
+        image: 'https://www.24eleven.ng/pub/media/catalog/product/cache/1/image/700x700/e9c3970ab036de70892d86c6d221abfe/f/a/facefacts-vitc-cream.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Face Fact Vitamin C Face Cream'
       }
 
       ],

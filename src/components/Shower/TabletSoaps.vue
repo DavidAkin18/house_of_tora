@@ -96,48 +96,60 @@ export default {
       products: [
       {
         name: 'VEET GOLD Sugar Whitening Soap',
-        price: '2,000',
+        price: '4,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337294/VEET_GOLD_Sugar_Whitening_Soap_gqubng.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VEET GOLD Sugar Whitening Soap.'
       },
       {
         name: 'VEET GOLD Skin Whitening And Toning Transparent Soap X3',
-        price: '35,000',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337288/VEET_GOLD_Skin_Whitening_And_Toning_Transparent_Soap_X3_tr2viu.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the VEET GOLD Skin Whitening And Toning Transparent Soap X3.'
       },
       {
         name: 'Super Brightening Soap with GLUTA injection extracts',
-        price: '3,000',
+        price: '5,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337282/Super_Brightening_Soap_with_GLUTA_injection_extracts_idqju6.jpg',
         whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Super Brightening Soap with GLUTA injection extracts.'
       },
       {
         name: 'SNAPCHAT SOAP BLUE DIAMOND 150g',
-        price: '2,500',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337273/SNAPCHAT_SOAP_BLUE_DIAMOND_150g_wsdbpx.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the SNAPCHAT SOAP BLUE DIAMOND 150g.'
       },
       {
+        name: 'Lait SAVON SELFIE 24H COLLAGEN BOOSTER ALPHA ARBUTIN SOAP',
+        price: '4,500',
+        image: 'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/43/7958563/1.jpg?9535',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lait SAVON SELFIE 24H COLLAGEN BOOSTER ALPHA ARBUTIN SOAP'
+      },
+      {
+        name: 'Extract Whitening Herbal Soap',
+        price: '2,500',
+        image: 'https://ng.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/59/2123841/2.jpg?3201',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Extract Whitening Herbal Soap'
+      },
+      {
         name: 'Smooth As Silk Extra Cool Complexion Toning Soap -200gm',
-        price: '2,000',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337263/Smooth_As_Silk_Extra_Cool_Complexion_Toning_Soap_-_200gm_detaqd.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Smooth As Silk Extra Cool Complexion Toning Soap -200gm.'
       },
       {
         name: 'Silka Whitening Herbal Soap Papaya Soap with Vitamin E Orange 135g',
-        price: '35,000',
+        price: '2,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337252/Silka_Whitening_Herbal_Soap_Papaya_Soap_with_Vitamin_E_Orange_135g_aexcab.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Silka Whitening Herbal Soap Papaya Soap with Vitamin E Orange 135g.'
       },
       {
         name: 'Purec Egyptian Secret Gold Soap 160g',
-        price: '3,000',
+        price: '3,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337237/Purec_Egyptian_Secret_Gold_Soap_160g_zvi4ow.webp',
         whatsappLink: 'https://wa.me/2348012345678?text=Hello, I am interested in buying the Purec Egyptian Secret Gold Soap 160g.'
       },
       {
-        name: 'Nano Extra White Nano Extra White Soap',
+        name: 'Nano Extra White Soap',
         price: '2,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337224/Nano_Extra_White_Nano_Extra_White_Soap_iv3f02.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Nano Extra White Nano Extra White Soap.'
@@ -150,115 +162,111 @@ export default {
       },
       {
         name: 'lilies kids teens milk soap',
-        price: '2,500',
+        price: '3,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337194/lilies_kids_teens_milk_soap_v39rqa.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the lilies kids teens milk soap.'
       },
       {
-        name: 'Lee Tamarind Lamongrass Kojic Soap',
+        name: 'Lee Tamarind  Kojic Soap',
         price: '2,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337184/Lee-Tamarind-Lamongrass-Kojic-Soap-LS04_b8obbk.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lee Tamarind Lamongrass Kojic Soap.'
       },
       {
         name: 'Jam Extra Carrot Gluta CollagenSoap',
-        price: '2,500',
+        price: '2,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337166/Jam_Extra_Jam_Carrot_Gluta_Collagen_Soap_-_12_Pieces_zkywdi.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Jam Extra Carrot Gluta CollagenSoap.'
       },
       {
+        name: 'Jam Extra RICE MILK Soap',
+        price: '2,000',
+        image: 'https://www.beautyre.com/wp-content/uploads/2021/06/JAM-Rice-Milk-Soap-with-Gluta-and-Collagen.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Jam Extra Carrot Gluta CollagenSoap.'
+      },
+      
+      {
         name: "Jam Acne Herbal soap For Acne Dark Spots Blemish Control",
-        price: '2,500',
+        price: '2,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337126/Jam_Acne_Herbal_Soap_For_Acne_Dark_Spots_Blemish_Control._Soap_yhww0l.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Jam Acne Herbal soap For Acne Dark Spots Blemish Control.'
       },
       {
         name: 'Idole Papaya Whitening Facial Soap 200g',
-        price: '2,500',
+        price: '1,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337114/Idole-Papaya-Whitening-Facial-Soap-200g_toto0p.png',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Idole Papaya Whitening Facial Soap 200g.'
       },
       {
         name: 'Idole Lightening Exfoliating Bar Soap With Avocado Powder -200g',
-        price: '2,500',
+        price: '1,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337094/Idole_Lightening_Exfoliating_Bar_Soap_With_Avocado_Powder-200g_Buy_product_at_Skinol_Cosmetics_website-_https-_skinol.com.ng_product_idole-lightening-exfoliating-bar-soap-with-avocado-powder-200g_u3e8p9.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Idole Lightening Exfoliating Bar Soap With Avocado Powder -200g.'
       },
       {
         name: 'HalfCast VITAMIN-C SOAP',
-        price: '2,500',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337086/HALFCAST-VITAMIN-C-SOAP_oppht3.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the HalfCast VITAMIN-C SOAP.'
       },
       {
-        name: 'Olay Vitamin C Body Wash',
-        price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732297025/Olay_Vitamin_C_Body_Wash_b60zqq.webp',
-        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Olay Vitamin C Body Wash.'
-      },
-      {
         name: 'HalfCast Privilege Age defying',
-        price: '2,500',
+        price: '4,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337071/HalfCast_Privilege_Age-defying_Bar_Soap_po0h5j.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the HalfCast Privilege Age defying.'
       },
       {
         name: 'Glutathione Injection Strong Whitening Soap -200g',
-        price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337048/Glutathione_Injection_Strong_Whitening_Soap_-_200g_bv2l4r.jpg',
+        price: '5,000',
+        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn4MpWovgPuYQ9hwu2D2hYHRmsdIll_n6KwA&s',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Glutathione Injection Strong Whitening Soap -200g.'
       },
       {
-        name: 'Glutathione Damar Whitening Soap',
+        name: 'Avenomade skin lightening black soap',
         price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337039/Glutathione_Damar_Whitening_Soap_vqkjqz.webp',
-        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Glutathione Damar Whitening Soap.'
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732336996/Avenomade_skin_lightening_black_soap_cpumuf.webp',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Avenomade skin lightening black soap'
       },
       {
-        name: 'Glutathione Damar Extra Whitening Soap',
+        name: 'Baby Secret Baby Hand Made Bar Soap -80g',
         price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337033/Glutathione_Damar_Extra_Whitening_Soap_ivdx0d.jpg',
-        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Glutathione Damar Extra Whitening Soap.'
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337001/Baby-Secret-Baby-Hand-Made-Bar-Soap-80g-880_rs8aqs.png',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Baby Secret Baby Hand Made Bar Soap -80g'
       },
       {
-        name: 'Glutathione Active Soap 170g',
+        name: 'Bavaria International Whitening Herbal Soap',
         price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337015/Glutathione_Active_Soap_170g_jaokss.webp',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337010/Bavaria_International_Whitening_Herbal_Soap_nmu6td.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Glutathione Active Soap 170g.'
       },
       {
-        name: 'Extra Whitening Glutathione Soap',
+        name: 'Drip Carrot Brightening Soap ',
         price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337005/Extra_Whitening_Glutathione_Soap_-_150g_mjmryb.jpg',
-        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Extra Whitening Glutathione Soap.'
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337014/Drip_Carrot_brightening_soap_hlvbee.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Drip Carrot Brightening Soap.'
       },
       {
         name: 'Veet Gold Kid And Teen Lightning Soap 150g ',
-        price: '2,500',
+        price: '3,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483890/Veet_Gold_3_in_1_Kid_And_Teen_Lightning_Soap_150g_etghmy.png',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Veet Gold Kid And Teen Lightning Soap 150g.'
       },
       {
         name: 'USA BeautyCare Face Out For Black Spot ',
-        price: '2,500',
+        price: '2,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483881/USA_Beauty_Care_Face_Out_For_Black_Spot_sgra4a.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the USA BeautyCare Face Out For Black Spot.'
       },
-      {
-        name: 'Smooth As Silk Complexion Super Toning Soap 200g',
-        price: '2,500',
-        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483874/Smooth_As_Silk_Complexion_Super_Toning_Soap_200g_d86tlv.webp',
-        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Smooth As Silk Complexion Super Toning Soap 200g.'
-      },
+      
       {
         name: 'Sebamed Clear Face Teenage Cleansing Bar -100g ',
-        price: '2,500',
+        price: '6,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483865/Sebamed_Clear_Face_Teenage_Cleansing_Bar_100g_eysusn.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Sebamed Clear Face Teenage Cleansing Bar -100g.'
       },
       {
-        name: 'Retin A Remove Acne Whitening 24K Soap -100g',
-        price: '2,500',
+        name: 'Retin-A Remove Acne Whitening 24K Soap -100g',
+        price: '3,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483855/Retin-A_Remove_Acne_Whitening_24K_Soap_100g_aizkkq.png',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Retin A Remove Acne Whitening 24K Soap -100g.'
       },
@@ -270,13 +278,13 @@ export default {
       },
       {
         name: "Palmer's Skin Success Anti-Dark Spot Complexion Bar -140g",
-        price: '2,500',
+        price: '4,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483843/Palmer_s_Skin_Success_Anti-Dark_Spot_Complexion_Bar_140_g_tiqorl.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Palmer\'s Skin Success Anti-Dark Spot Complexion Bar -140g.'
       },
       {
         name: 'Mega White Rapid Action Clarifying Soap 190g',
-        price: '2,500',
+        price: '1,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483835/Mega_White_Rapid_Action_Clarifying_Soap_190g_msxyzt.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Mega White Rapid Action Clarifying Soap 190g.'
       },
@@ -287,8 +295,8 @@ export default {
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Kojic White Gluta Papaya Arbutin 7 Days Whitening Soap.'
       },
       {
-        name: 'K.Brothers U.S.A Papaya Soap 120g Black spot',
-        price: '2,500',
+        name: 'U.S.A Papaya Soap 120g Black spot',
+        price: '2,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483803/K.Brothers_U.S.A_Papaya_Soap_120g_Black_spot_ezj4lf.webp',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the K.Brothers U.S.A Papaya Soap 120g Black spot.'
       },
@@ -300,7 +308,7 @@ export default {
       },
       {
         name: 'Jam Goat Milk Collagen Soap',
-        price: '2,500',
+        price: '2,000',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483785/JamGoatMilkCollagenSoap_qosri6.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Jam Goat Milk Collagen Soap.'
       },
@@ -321,99 +329,62 @@ export default {
         price: '2,500',
         image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483753/Asantee_Carrot_Honey_Soap_125g_3PCS_rtjvtf.jpg',
         whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Asantee Carrot Honey Soap 125g.'
-      }
+      },
+      {
+        name: 'Eclaircissant Larissa Savon Carotte 225g',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337021/Eclaircissant_Larissa_Savon_Carotte_225g_sypw3q.webp',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the FAIR WHITE PARIS GOLD ULTIMATE.'
+      },
 
-
-        // {
-        //   name: 'Veet Gold Kid And Teen Lightning Soap 150g ',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483890/Veet_Gold_3_in_1_Kid_And_Teen_Lightning_Soap_150g_etghmy.png',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'USA BeautyCare Face Out For Black Spot ',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483881/USA_Beauty_Care_Face_Out_For_Black_Spot_sgra4a.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Smooth As Silk Complexion Super Toning Soap 200g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483874/Smooth_As_Silk_Complexion_Super_Toning_Soap_200g_d86tlv.webp',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Sebamed Clear Face Teenage Cleansing Bar -100g ',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483865/Sebamed_Clear_Face_Teenage_Cleansing_Bar_100g_eysusn.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Retin  A Remove Acne Whitening 24K Soap -100g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483855/Retin-A_Remove_Acne_Whitening_24K_Soap_100g_aizkkq.png',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'RDL Bleaching Soap With Skin Moisturizer -135g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483849/RDL_Bleaching_Soap_With_Skin_Moisturizer_-135g_wt5949.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: "Palmer's Skin Success Anti-Dark Spot Complexion Bar -140g",
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483843/Palmer_s_Skin_Success_Anti-Dark_Spot_Complexion_Bar_140_g_tiqorl.webp',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Mega White Rapid Action Clarifying Soap 190g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483835/Mega_White_Rapid_Action_Clarifying_Soap_190g_msxyzt.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Kojic White Gluta Papaya Arbutin 7 Days Whitening Soap ',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483822/Kojic_White_Gluta_Papaya_Arbutin_7_Days_Whitening_Soap_aowihm.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'K.Brothers U.S.A Papaya Soap 120g Black spot',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483803/K.Brothers_U.S.A_Papaya_Soap_120g_Black_spot_ezj4lf.webp',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Johnsons Blossoms Baby Soap',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483792/JohnsonsBlossomsBabySoap_xv3a1b.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Jam Goat Milk Collagen Soap',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483785/JamGoatMilkCollagenSoap_qosri6.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'FAIR WHITE PARIS GOLD ULTIMATE',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483776/FAIR_WHITE_PARIS_GOLD_ULTIMATE_1_idyevi.webp',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Asantee Carrot Papaya & Honey Soap -125g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483770/Asantee_Carrot_Pawaw_Soap_125g_3PCS_veultj.webp',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
-        // {
-        //   name: 'Asantee Carrot Honey Soap 125g',
-        //   price: '2,500',
-        //   image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732483753/Asantee_Carrot_Honey_Soap_125g_3PCS_rtjvtf.jpg',
-        //   whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Lotion product.'
-        // },
+      {
+        name: 'Fair And White Paris Fair White Exfoliating Soap ',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337036/Fair_And_White_Paris_Fair_White_So_White_Exfoliating_Soap_qhxe1a.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying Fair And White Paris Fair White Exfoliating Soap'
+      },
+      {
+        name: 'Glutathione Injection Strong Whitening Soap ',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337063/Glutathione_Injection_Strong_Whitening_Soap_-200g_pdgzpr.webp',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Asantee Carrot Honey Soap 125g.'
+      },
+      {
+        name: 'GLUTA-C INTENSE WHITENING GLUTATHIONE PAPAYA SOAP',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337056/GLUTA_C_INTENSE_WHITENING_GLUTATHIONE_PAPAYA_SOAP_rvej4f.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the GLUTA-C INTENSE WHITENING GLUTATHIONE PAPAYA SOAP '
+      },
+      {
+        name: 'Glow Half Cast Extra Fairness Soap',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337046/glow-half-cast-extra-fairnes-soap_qdwzno.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Asantee Carrot Honey Soap 125g.'
+      },
+      {
+        name: 'Glutathione Injection Strong Whitening Soap ',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1732337063/Glutathione_Injection_Strong_Whitening_Soap_-200g_pdgzpr.webp',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Asantee Carrot Honey Soap 125g.'
+      },
+      {
+        name: 'Debbitone Soap ',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1733740932/debbitone_yu1io7.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Debbitone_yu1io7'
+      },
+      {
+        name: 'GLUTATHIONE INJECTION Gluta Kojic White Molato Cream Soap Terminal White Soap',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1733740914/GLUTATHIONE_INJECTION_Gluta_Kojic_White_Molato_Cream_Soap_Terminal_White_Soap_qros2o.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the GLUTATHIONE INJECTION Gluta Kojic White Molato Cream Soap Terminal White Soap'
+      },
+      {
+        name: 'Cottage Fresh Ghana Soap',
+        price: '2,500',
+        image: 'https://res.cloudinary.com/def9quyti/image/upload/v1733740926/Cottage_Fresh_Ghana_dkvuzc.jpg',
+        whatsappLink: 'https://wa.me/9092627921?text=Hello, I am interested in buying the Cottage Fresh Ghana'
+      },
       ],
     };
   },
