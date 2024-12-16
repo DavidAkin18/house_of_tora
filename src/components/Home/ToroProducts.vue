@@ -21,7 +21,7 @@
             <img 
                 :src="product.image" 
                 :alt="product.name" 
-                class="w-full h-32 object-cover rounded-t-lg mb-4" 
+                class="w-full  object-cover rounded-t-lg mb-4" 
             />
             
             <!-- Product Name -->
@@ -58,44 +58,50 @@
         products: [
           {
             name: "Lotion",
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739330/toroLotion_ilv7xp.jpg",
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346808/Screenshot_2024-12-16_at_11.57.49_qrsf9p.png",
           
-            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Lotion"
           },
           {
             name: "Cleansers",
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739298/toroFaceWash_lrf5du.jpg",
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346817/Screenshot_2024-12-16_at_11.58.37_imelym.png",
             
-            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Cleanser"
 
           },
           {
             name: "Body oil",
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739342/toroOil_mjwjzn.jpg",
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346205/Screenshot_2024-12-16_at_11.45.48_bwnuxd.png",
         
-            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Body oil"
 
           },
           {
             name: "Face Cream",
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739294/toroFaceCream_kwc9vo.jpg",
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346813/Screenshot_2024-12-16_at_11.58.11_i3ndrm.png",
          
             whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
 
           },
-          // Repeat or add more products to test scrolling
+     
           { 
             name: "Scrub", 
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739345/toroScrub_cd903m.jpg", 
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346216/Screenshot_2024-12-16_at_11.46.14_avz9a8.png", 
            
-            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Scrub"
 
           },
           { 
             name: "Tube Cream", 
-            image: "https://res.cloudinary.com/def9quyti/image/upload/v1733739340/toroTube_a2qwwn.jpg", 
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346198/Screenshot_2024-12-16_at_11.45.35_tylwzb.png", 
            
-            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Face Cream"
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Tube Cream"
+          },
+          { 
+            name: "Soap", 
+            image: "https://res.cloudinary.com/def9quyti/image/upload/v1734346211/Screenshot_2024-12-16_at_11.46.01_cgsu6k.png", 
+           
+            whatsappLink: "https://wa.me/9092627921?text=Hello, I am interested in buying Toro's Soap"
           },
         ],
       };

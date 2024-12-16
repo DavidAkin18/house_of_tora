@@ -12,11 +12,17 @@
                 <span class="text-[#ffffff]">Toro</span>
             </h3>
             <p class="text-[#ffffff] leading-relaxed">
-                House of Toro, a name steeped in tradition, traces its roots 
-                to the ancient Ayurvedic practices of the Gampaha District. Founded by 
-                the renowned Ayurvedic physician, Dr. R. D. P. Jayaratne, 
-                the brand has been passed down through generations, carrying 
-                forward a legacy of natural beauty and wellness.
+                Founded on January 10, 2021, House of Toro blends tradition with modern skincare. Inspired by 
+                the ancient Ayurvedic practices of the Gampaha District, the brand draws on nature’s wisdom to 
+                create products that celebrate natural beauty and wellness.
+
+                At the heart of House of Toro is Adetoro Oluwadamilola Toromade.A, a passionate advocate 
+                for skincare and meaningful connections. With a love for interaction and 
+                personalized recommendations, Adetoro believes skincare is more than a routine—it’s a 
+                journey of self-care and confidence.
+
+                Rooted in heritage and crafted for today, House of Toro invites you to embrace radiant, 
+                healthy skin through simple, authentic care.
             </p>
             
             </div>

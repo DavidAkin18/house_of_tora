@@ -52,7 +52,7 @@
           <a @click.prevent="scrollTo('home')" class="text-[#000000] font-bold hover:text-[#B87F61]">Home</a>
           <a @click.prevent="scrollTo('products')" class="text-[#000000] font-bold hover:text-[#B87F61]">Products</a>
           <a @click.prevent="scrollTo('about')" class="text-[#000000] font-bold hover:text-[#B87F61]">About</a>
-          <a @click.prevent="scrollTo('contact')" class="w-full bg-[#B87F61] font-bold text-white rounded-lg py-1 px-2 text-center shadow-md
+          <a href="https://wa.me/2349092627921" class="w-full bg-[#B87F61] font-bold text-white rounded-lg py-1 px-2 text-center shadow-md
           hover:bg-[#FFEFD8] hover:border hover:border-[#B87F61] hover:text-[#B87F61] transition">Contact</a>
         </div>
       </div>

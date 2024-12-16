@@ -10,10 +10,14 @@
                 Beauty care treatments that are effective, safe, and have withstood the trials of time.
             </p>
             <div class="flex space-x-4">
-                <a href="#" class="bg-[#B87F61] text-white px-6 py-2 rounded hover:bg-orange-600">
+                <a href="https://wa.me/2349092627921" target="_blank" 
+                class="bg-[#B87F61] text-white px-6 py-2 rounded 
+                 hover:bg-[#FFEFD8] hover:border hover:border-[#B87F61] hover:text-[#B87F61]">
                 contact us
                 </a>
-                <a @click.prevent="scrollTo('products')" class="text-[#B87F61] border border-[#B87F61] px-6 py-2 rounded ">
+                <a @click.prevent="scrollTo('products')" class="text-[#B87F61]  border border-[#B87F61]
+                 hover:border-[#FFEFD8] hover:border hover:bg-[#B87F61] 
+                hover:text-[#FFFFFF] px-6 py-2 rounded ">
                 Products
                 </a>
             </div>
